@@ -21,8 +21,8 @@
 #include <stdint.h>
 #include <string.h>
 
-struct hb_ddr_uart_hdr hdr_uart;
-struct hb_ddr_hdr hdr_ddr;
+extern struct hb_ddr_uart_hdr hdr_uart;
+extern struct hb_ddr_hdr hdr_ddr;
 #endif
 
 #define UART_DDR_DIR              "uart_ddr_img"
