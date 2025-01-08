@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include "hb_ddr_oem.h"
 
+struct hb_ddr_uart_hdr hdr_uart;
+struct hb_ddr_hdr hdr_ddr;
+
 /* #define H9HCNNN8KUMLHR  0x0608 */
 struct DRAM_CFG_PARAM lpddr4_mstr_x3_hynix[12] = {
 	{uMCTL2_ADDRMAP0, 0x001F1F1F},
